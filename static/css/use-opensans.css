@@ -1,0 +1,109 @@
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:400,400italic);
+
+.navbar {
+    margin-bottom: 0px;
+}
+
+@media screen and (min-width: 768px) {
+  .jumbotron {
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+}
+
+img {
+    padding: 10px 0px 26px;
+}
+
+p {
+    font-size: 14px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+blockquote {
+    font-size: 14px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+#content {
+    font-family: 'Open Sans', sans-serif;
+    padding-right: 50px; 
+    line-height: 26px;
+}
+
+#site-colophon {
+    font-family: 'Open Sans', sans-serif;
+}
+
+.article-header-date, .article-header-info {
+    font-family: 'Open Sans', sans-serif;
+}
+
+.social-links {
+    font-family: 'Open Sans', sans-serif;
+}
+
+.category-links {
+    font-family: 'Open Sans', sans-serif;
+}
+
+.tag-1 {
+    font-family: 'Open Sans', sans-serif;
+}
+.tag-2 {
+    font-family: 'Open Sans', sans-serif;
+    margin-bottom: 0px;
+}
+.tag-3 {
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+}
+.tag-4 {
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.tag-cloud {
+    font-family: 'Open Sans', sans-serif;
+    line-height: 15px;
+}
+
+.article-tag-list {
+    font-family: 'Open Sans', sans-serif;
+    padding-top: 15px;
+}
+
+.home-top {
+    font-family: 'Open Sans', sans-serif;
+    margin-top: 20px;
+}
+
+#sidebar h4 {
+    font-family: 'Open Sans', sans-serif;
+    margin-top: 20px;
+}
+
+#site-footer {
+    font-family: 'Open Sans', sans-serif;
+    background: #eee;
+    border-top: 1px dotted #999;
+    margin-top: 40px;
+    padding-top: 20px;
+}
+
+/*
+ * My preference for code blocks is no line wraps and horizontal scrolling.
+ */
+#content pre {
+    font-family: 'Open Sans', sans-serif;
+    border-left: 5px solid #999;
+    overflow-x: auto;
+    padding-left: 20px;
+    word-break: normal;
+    word-wrap: normal;
+    white-space: pre;
+}
+
+dt {
+  margin-top: 10px;
+}
