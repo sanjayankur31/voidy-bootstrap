@@ -32,6 +32,11 @@
 {% endblock container_header %}
 {% block content_header %}
 {% include "includes/" + CUSTOM_CONTENT_TOP_PAGE|default("page_top.html") ignore missing %}
+<ol class="breadcrumb">
+  <li><a href="{{ SITEURL }}/" title="Home">
+	  <i class="fa fa-home fa-fw fa-lg"></i> </a></li>
+  <li class="active">{{ page.title }}</li>
+</ol>
 {% endblock content_header %}
 
 {% block    content_body %}
