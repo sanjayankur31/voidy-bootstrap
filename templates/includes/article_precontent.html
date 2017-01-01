@@ -1,0 +1,11 @@
+{% if article.series %}
+<p>This post is part ({{ article.series.index }}/{{ article.series.all|count }}) of the "<a href="{{ SITEURL }}/{{ article.series.all[0].url }}">{{ article.series.name }}</a>" series:</p>
+<ol class="parts">
+  {% for part_article in article.series.all %}
+  <li {% if part_article == article %}class="active"{% endif %}>
+    <a href='{{ SITEURL }}/{{ part_article.url }}'>{{ part_article.title }}</a>
+  </li>
+  {% endfor %}
+</ol>
+<hr>
+{% endif %}
