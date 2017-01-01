@@ -6,6 +6,12 @@ ChangeLog - VoidyBootstrap
 
 * Added DEFAULT_SOCIAL_IMAGE, FAVICON and CUSTOM_HTML_HEAD settings.
 
+* Updated Dependencies: 
+
+  * Bootstrap 3.3.7
+  * Font Awesome 4.6.3
+  * jQuery 1.12.4
+
 
 2.0 (January 2015)
 ------------------
