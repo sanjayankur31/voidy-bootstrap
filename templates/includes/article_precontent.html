@@ -1,4 +1,5 @@
 {% if article.series %}
+{% if article.status != "draft" and article.status != "hidden" %}
 <p>This post is part ({{ article.series.index }}/{{ article.series.all|count }}) of the "<a href="{{ SITEURL }}/{{ article.series.all[0].url }}">{{ article.series.name }}</a>" series:</p>
 <ol class="parts">
   {% for part_article in article.series.all %}
@@ -8,4 +9,5 @@
   {% endfor %}
 </ol>
 <hr>
+{% endif %}
 {% endif %}
