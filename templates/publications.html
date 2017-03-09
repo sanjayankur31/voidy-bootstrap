@@ -46,7 +46,7 @@ function disp(s) {
   <ul>
     {% for publication in group.list %}
     <li id="{{ publication.key }}">{{ publication.text }}
-      [&nbsp;<a href="javascript:disp('{{ publication.bibtex|replace('\n', '\\n')}}');">Bibtex</a>&nbsp;]
+      [&nbsp;<a href="javascript:disp('{{ publication.bibtex|replace('\n', '\\n')|escape}}');">Bibtex</a>&nbsp;]
       {% for label, target in [('PDF', publication.pdf), ('Slides', publication.slides), ('Poster', publication.poster)] %}
       {{ "[&nbsp;<a href=\"%s\">%s</a>&nbsp;]" % (target, label) if target }}
       {% endfor %}
