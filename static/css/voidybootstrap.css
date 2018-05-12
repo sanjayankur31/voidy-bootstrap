@@ -87,6 +87,8 @@ p.standfirst {
  * My preference for code blocks is no line wraps and horizontal scrolling.
  */
 #content pre {
+    font-family: Consolas,Monaco,Lucida Console,Liberation Mono,DejaVu Sans Mono,Bitstream Vera Sans Mono,Courier New, monospace;
+    display: block;
     background: #eee;
     box-sizing: border-box;
     border-left: 5px solid #999;
