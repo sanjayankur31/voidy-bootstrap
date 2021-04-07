@@ -1,1 +1,5 @@
-.ropeproject/
+*~
+.idea/
+.vscode/
+*.pyc
+*.directory
