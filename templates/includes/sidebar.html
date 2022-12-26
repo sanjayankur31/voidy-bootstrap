@@ -11,7 +11,7 @@
 <ul class="list-unstyled social-links">
 {#  {% for name, link, icon in SOCIAL %} #}
   {% for item in SOCIAL %}
-    <li><a href="{{ item[1] }}" target="_blank">
+    <li><a rel="me" href="{{ item[1] }}" target="_blank">
 	  <i class="{{ item[2]|default("fas fa-comments fa-fw fa-lg") }}" title="{{ item[0] }}"></i>
 		{{ item[0] }}
 	</a></li>
