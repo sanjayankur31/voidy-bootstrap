@@ -98,6 +98,8 @@ p.standfirst {
     word-wrap: normal;
     white-space: pre;
     max-width: 768px;
+    overflow-y: auto;
+    max-height: 30vh;
 }
 
 dt {
