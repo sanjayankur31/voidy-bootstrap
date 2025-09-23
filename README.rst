@@ -97,8 +97,7 @@ The following are probably better suited for ``publishconf.py``::
   FEED_ALL_ATOM = 'feeds/all.atom.xml'
 
   DISQUS_SITENAME = "disqussitename"
-  GOOGLE_ANALYTICS = "UA-xxxxxxxxxx"
-  GOOGLE_ANALYTICS_SITEID = "gasiteid"
+  ANALYTICS = """ANALYTICS SCRIPT"""
   TWITTER_USERNAME = "twitterusername"
 
 
